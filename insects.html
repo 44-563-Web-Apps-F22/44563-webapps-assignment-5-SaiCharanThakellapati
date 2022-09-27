@@ -6,26 +6,46 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
   
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"   
+integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" 
+integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+
+<style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #DDD;
+    }
+    
+    tr:hover {background-color: #D6EEEE;}
+    
+    caption { 
+    display: table-caption;
+    text-align: center;
+  }
+</style>
 
 </head>
-<body>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+<body>
 
 <h1 style="text-align: center">The Insects Cabinet</h1>
 
 <div class="container">
-
 <div class="row">
-<div class="col-sm-2"> t </div>
-<div class="col-sm-2"> h </div>
-<div class="col-sm-2"> a </div>
-<div class="col-sm-2"> k </div>
-<div class="col-sm-2"> e </div>
-<div class="col-sm-2"> l </div>
+<div class="col-sm-2"> T </div>
+<div class="col-sm-2"> H </div>
+<div class="col-sm-2"> A </div>
+<div class="col-sm-2"> K </div>
+<div class="col-sm-2"> E </div>
+<div class="col-sm-2"> L </div>
 </div>
-
-
 <div class="row">
 <div class="col-md"> Termite </div>
 <div class="col-md"> Honeybee </div>
@@ -34,7 +54,6 @@
 <div class="col-md"> Earthworm </div>
 <div class="col-md"> Ladybug </div>
 </div>
-
 </div>
 
 <h5 style="text-align: center">
@@ -45,6 +64,124 @@ Second row breaks first since we are using grid classes and filled all 6 rows av
 Grid contains breakpoints and supports 6 responsive breakpoints in row.
 </h5>
 
+<div class="container" style="text-align: center">
+
+    <img src="Termite.jpg" class="img-fluid"  width=400; height=500  alt="Termite">
+    <img src="Honeybee.jpg"class="img-fluid" width=400; height=500   alt="Honeybee">
+    <img src="Ant.jpg" class="img-fluid"  width=400 ; height=500 alt="Ant">
+    <img src="Katydids.jpg" class="img-fluid"  width=400 ; height=500 alt="Katydids">
+    <img src="Earthworm.jpg" class="img-fluid"  width=400 ; height=500 alt="Earthworm">
+    <img src="Ladybug.jpg" class="img-fluid"  width=400 ; height=500 alt="Ladybug">
+  </div>
+
+  <div class="container-fluid" style="text-align: center">
+    <a target="_blank" href="Termite.jpg">
+    <img src="Termite.jpg" class="img-thumbnail" alt="Termite">
+    </a>
+
+    <a target="_blank" href="Honeybee.jpg">
+    <img src="Honeybee.jpg"class="img-thumbnail" alt="Honeybee">
+    </a>
+
+    <a target="_blank" href="Ant.jpg">
+    <img src="Ant.jpg" class="img-thumbnail" alt="Ant">
+    </a>
+
+    <a target="_blank" href="Katydids.jpg">
+    <img src="Katydids.jpg" class="img-thumbnail" alt="Katydids">
+    </a>
+
+    <a target="_blank" href="Earthworm.jpg">
+    <img src="Earthworm.jpg"class="img-thumbnail" alt="Earthworm">
+    </a>
+
+    <a target="_blank" href="Ladybug.jpg">
+    <img src="Ladybug.jpg" class="img-thumbnail" alt="Ladybug">
+    </a>
+  </div>
+
+  <table class="table table-striped table-bordered">
+    <caption>Insects Table</caption>
+    <thead>
+    <tr>
+      <th style="text-align: center">SNo</th>
+      <th style="text-align: center">Letter</th>
+      <th style="text-align: center">Insects</th>
+      <th style="text-align: center">City</th>
+      <th style="text-align: center">River</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr style="text-align: center">
+      <th style="text-align: center">1</th>
+      <td style="text-align: center">T</td>
+      <td style="text-align: center">Termite</td>
+      <td style="text-align: center">Tulsa</td>
+      <td style="text-align: center">Taku River</td>
+    </tr>
+    <tr style="text-align: center">
+      <th style="text-align: center">2</th>
+      <td style="text-align: center">H</td>
+      <td style="text-align: center">Honeybee</td>
+      <td style="text-align: center">Houston</td>
+      <td style="text-align: center">Hudson River</td>
+    </tr>
+    <tr style="text-align: center">
+      <th style="text-align: center">3</th>
+      <td style="text-align: center">A</td>
+      <td style="text-align: center">Ant</td>
+      <td style="text-align: center">Atlanta</td>
+      <td style="text-align: center">Abita River</td>
+    </tr>
+    <tr>
+      <th style="text-align: center">4</th>
+      <td style="text-align: center">K</td>
+      <td style="text-align: center">Katydids</td>
+      <td style="text-align: center">Kansas City</td>
+      <td style="text-align: center">Kachess River</td>
+    </tr>
+    <tr>
+      <th style="text-align: center">5</th>
+      <td style="text-align: center">E</td>
+      <td style="text-align: center">Earthworm</td>
+      <td style="text-align: center">El Dorado Hills</td>
+      <td style="text-align: center">Eagle River</td>
+    </tr>
+    <tr>
+      <th style="text-align: center">6</th>
+      <td style="text-align: center">L</td>
+      <td style="text-align: center">Ladybug</td>
+      <td style="text-align: center">Los Angeles</td>
+      <td style="text-align: center">La Crosse River</td>
+    </tr>
+  </tbody>
+</table>
+
+<label>BUTTONS</label>
+<div>
+    <button type="button" class="btn btn-success">T</button>
+    <button type="button" class="btn btn-warning">H</button>
+    <button type="button" class="btn btn-danger">A</button>
+    <button type="button" class="btn btn-secondary">K</button>
+    <button type="button" class="btn btn-info">E</button>
+    <button type="button" class="btn btn-dark">L</button>
+</div>
+
+<label>BUTTON GROUPS:</label>
+    <div class="btn-toolbar" >
+    <div class="btn-group" role="group" aria-label="Success" >
+      <button type="button" class="btn btn-success">T</button>
+      <button type="button" class="btn btn-success">H</button>
+      <button type="button" class="btn btn-success">A</button>
+    </div><br>
+    <div class="btn-group" role="group" aria-label="Waring">
+   <button type="button" class="btn btn-warning">K</button>
+   <button type="button" class="btn btn-warning">E</button>
+   </div><br>
+<div class="btn-group" role="group" aria-label="Danger">
+  <button type="button" class="btn btn-danger">L</button>
+</div><br>
+</div>
 
 </body>
 </html>
